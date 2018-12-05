@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRM Application]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Login Page Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.orangehrm.tests.LoginPageTest">
+        <methods>
+          <include name="closingWindows"/>
+          <include name="VerifyLogoInMainPage"/>
+          <include name="lunchTest"/>
+        </methods>
+      </class> <!-- com.orangehrm.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Login Page Test(failed) -->
+</suite> <!-- Failed suite [OrangeHRM Application] -->
