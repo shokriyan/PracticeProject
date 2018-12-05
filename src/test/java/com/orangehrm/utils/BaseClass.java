@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -28,6 +29,9 @@ public class BaseClass {
 			String fireKey = "webdriver.gecko.driver";
 			System.setProperty(fireKey, fireValue);
 			driver = new FirefoxDriver();
+		}else if (browser.equalsIgnoreCase("ghost")) {
+			
+			driver = new HtmlUnitDriver();
 		}else {
 			throw new RuntimeException("invalid browser");
 		}

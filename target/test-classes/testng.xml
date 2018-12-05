@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="OrangeHRM Application">
   <test name="Login Page Test">
-  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="browser" value="ghost"></parameter>
     <classes>
       <class name="com.orangehrm.tests.LoginPageTest"/>
     </classes>
