@@ -1,6 +1,6 @@
-com\orangehrm\tests\LoginPageTest.class
-com\orangehrm\pages\LoginPage.class
-com\orangehrm\utils\CommonMethods.class
-com\orangehrm\utils\ConfigReader.class
-com\orangehrm\utils\ConstanceClass.class
-com\orangehrm\utils\BaseClass.class
+com/orangehrm/pages/LoginPage.class
+com/orangehrm/utils/BaseClass.class
+com/orangehrm/utils/ConstanceClass.class
+com/orangehrm/utils/CommonMethods.class
+com/orangehrm/utils/ConfigReader.class
+com/orangehrm/tests/LoginPageTest.class
