@@ -47,7 +47,7 @@ public class BaseClass {
 		
 	}
 	
-	public void clickableWait (WebElement element) {
+	public static void clickableWait (WebElement element) {
 		WebDriverWait wait = new WebDriverWait(driver, 10); 
 		wait.until(ExpectedConditions.elementToBeClickable(element));
 	}

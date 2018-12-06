@@ -5,12 +5,17 @@ import org.openqa.selenium.WebElement;
 
 public class CommonMethods extends BaseClass{
 	
-	public void sendFieldValue(WebElement element , String value) {
+	public static void sendFieldValue(WebElement element , String value) {
 		element.clear();
 		element.sendKeys(value);
 	}
 	
-	public void clickOnlinks (String linkText) {
+	public static void clickOnButtons(WebElement element) {
+		clickableWait(element);
+		element.click();
+	}
+	
+	public static void clickOnlinks (String linkText) {
 		WebElement element = driver.findElement(By.linkText(linkText));
 		clickableWait(element);
 		element.click();

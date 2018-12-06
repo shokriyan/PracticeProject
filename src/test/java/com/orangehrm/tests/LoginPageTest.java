@@ -8,6 +8,8 @@ import org.testng.annotations.Parameters;
 
 import com.orangehrm.pages.LoginPage;
 import com.orangehrm.utils.BaseClass;
+import com.orangehrm.utils.CommonMethods;
+import com.orangehrm.utils.ConfigReader;
 
 public class LoginPageTest {
 	
@@ -28,10 +30,28 @@ public class LoginPageTest {
 		Assert.assertTrue(exists);
 	}
 	
+	@Test
+	public void LoginWithAdminUser() {
+		LoginPage login = new LoginPage(); 
+		ConfigReader config = new ConfigReader(); 
+		String uname = config.getUserName(); 
+		String pass = config.getPassword();
+		
+		CommonMethods.sendFieldValue(login.username, uname);
+		CommonMethods.sendFieldValue(login.password, pass);
+		CommonMethods.clickOnButtons(login.btnLogin);
+		
+		String actualUSer = login.loggedUser();
+		Assert.assertEquals(actualUSer, uname);
+		
+	}
+	
 	@AfterMethod
 	public void closingWindows() {
 		base = new BaseClass(); 
 		base.teardown(); 
 	}
+	
+
 
 }
