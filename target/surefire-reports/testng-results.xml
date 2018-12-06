@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-12-06T18:04:59Z" name="OrangeHRM Application" finished-at="2018-12-06T18:05:03Z" duration-ms="4034">
+  <suite started-at="2018-12-06T23:23:50Z" name="OrangeHRM Application" finished-at="2018-12-06T23:23:55Z" duration-ms="4428">
     <groups>
     </groups>
-    <test started-at="2018-12-06T18:04:59Z" name="Login Page Test" finished-at="2018-12-06T18:05:03Z" duration-ms="4034">
+    <test started-at="2018-12-06T23:23:50Z" name="Login Page Test" finished-at="2018-12-06T23:23:55Z" duration-ms="4428">
       <class name="com.orangehrm.tests.LoginPageTest">
-        <test-method is-config="true" signature="lunchTest(java.lang.String)[pri:0, instance:com.orangehrm.tests.LoginPageTest@3098cf3b]" started-at="2018-12-06T18:04:59Z" name="lunchTest" finished-at="2018-12-06T18:05:01Z" duration-ms="1958" status="PASS">
+        <test-method is-config="true" signature="lunchTest(java.lang.String)[pri:0, instance:com.orangehrm.tests.LoginPageTest@3098cf3b]" started-at="2018-12-06T23:23:50Z" name="lunchTest" finished-at="2018-12-06T23:23:53Z" duration-ms="2314" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchTest -->
-        <test-method signature="LoginWithAdminUser()[pri:0, instance:com.orangehrm.tests.LoginPageTest@3098cf3b]" started-at="2018-12-06T18:05:01Z" name="LoginWithAdminUser" finished-at="2018-12-06T18:05:02Z" duration-ms="1366" status="PASS">
+        <test-method signature="LoginWithAdminUser()[pri:0, instance:com.orangehrm.tests.LoginPageTest@3098cf3b]" started-at="2018-12-06T23:23:53Z" name="LoginWithAdminUser" finished-at="2018-12-06T23:23:54Z" duration-ms="1397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithAdminUser -->
-        <test-method is-config="true" signature="closingWindows()[pri:0, instance:com.orangehrm.tests.LoginPageTest@3098cf3b]" started-at="2018-12-06T18:05:02Z" name="closingWindows" finished-at="2018-12-06T18:05:02Z" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="closingWindows()[pri:0, instance:com.orangehrm.tests.LoginPageTest@3098cf3b]" started-at="2018-12-06T23:23:54Z" name="closingWindows" finished-at="2018-12-06T23:23:54Z" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingWindows -->
-        <test-method is-config="true" signature="lunchTest(java.lang.String)[pri:0, instance:com.orangehrm.tests.LoginPageTest@3098cf3b]" started-at="2018-12-06T18:05:02Z" name="lunchTest" finished-at="2018-12-06T18:05:03Z" duration-ms="601" status="PASS">
+        <test-method is-config="true" signature="lunchTest(java.lang.String)[pri:0, instance:com.orangehrm.tests.LoginPageTest@3098cf3b]" started-at="2018-12-06T23:23:54Z" name="lunchTest" finished-at="2018-12-06T23:23:55Z" duration-ms="572" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,11 +37,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchTest -->
-        <test-method signature="VerifyLogoInMainPage()[pri:0, instance:com.orangehrm.tests.LoginPageTest@3098cf3b]" started-at="2018-12-06T18:05:03Z" name="VerifyLogoInMainPage" finished-at="2018-12-06T18:05:03Z" duration-ms="87" status="PASS">
+        <test-method signature="VerifyLogoInMainPage()[pri:0, instance:com.orangehrm.tests.LoginPageTest@3098cf3b]" started-at="2018-12-06T23:23:55Z" name="VerifyLogoInMainPage" finished-at="2018-12-06T23:23:55Z" duration-ms="116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLogoInMainPage -->
-        <test-method is-config="true" signature="closingWindows()[pri:0, instance:com.orangehrm.tests.LoginPageTest@3098cf3b]" started-at="2018-12-06T18:05:03Z" name="closingWindows" finished-at="2018-12-06T18:05:03Z" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="closingWindows()[pri:0, instance:com.orangehrm.tests.LoginPageTest@3098cf3b]" started-at="2018-12-06T23:23:55Z" name="closingWindows" finished-at="2018-12-06T23:23:55Z" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingWindows -->

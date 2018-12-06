@@ -1,6 +1,10 @@
 /Users/mohammadshokriyan/eclipse-workspace/PracticeProject/src/test/java/com/orangehrm/utils/ConfigReader.java
 /Users/mohammadshokriyan/eclipse-workspace/PracticeProject/src/test/java/com/orangehrm/utils/CommonMethods.java
+/Users/mohammadshokriyan/eclipse-workspace/PracticeProject/src/test/java/com/orangehrm/pages/TimePage.java
 /Users/mohammadshokriyan/eclipse-workspace/PracticeProject/src/test/java/com/orangehrm/pages/LoginPage.java
 /Users/mohammadshokriyan/eclipse-workspace/PracticeProject/src/test/java/com/orangehrm/utils/BaseClass.java
+/Users/mohammadshokriyan/eclipse-workspace/PracticeProject/src/test/java/com/orangehrm/pages/DashboardPage.java
+/Users/mohammadshokriyan/eclipse-workspace/PracticeProject/src/test/java/com/orangehrm/pages/EmployeeListPage.java
 /Users/mohammadshokriyan/eclipse-workspace/PracticeProject/src/test/java/com/orangehrm/tests/LoginPageTest.java
 /Users/mohammadshokriyan/eclipse-workspace/PracticeProject/src/test/java/com/orangehrm/utils/ConstanceClass.java
+/Users/mohammadshokriyan/eclipse-workspace/PracticeProject/src/test/java/com/orangehrm/pages/AddEmployeePage.java
